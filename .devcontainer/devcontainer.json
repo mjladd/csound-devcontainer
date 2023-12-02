@@ -1,0 +1,10 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+	"name": "csound",
+	// use the Dockerfile in the current directory
+	// build context of one directory above ('..')
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	}
+}
