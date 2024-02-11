@@ -53,6 +53,7 @@ All p-fields beyond the determined standard configuration (p-fields 13 and highe
 A simple design for experimental representation of data based on beat frequencies is shown in listing 1. An example score file is shown in listing 2. In this example, the researcher has determined that the p-field arrangement shown in table 1 for p-fields 1 to 9 will be implemented within each sonification instrument, but that subsequent fields are instrument dependent. And so, for example, although p-fields 10 to 12 in this instance contain filtering data which is not processed by the particular instrument shown, the data should remain presented to the instrument so that in the event that any alternative instrument is employed which recognizes the p-fields, the effects are implemented. This provides a compromise between instrument individuality and common functionality. In this way a range of different instruments may be rapidly employed for sonification studies as appropriate, with no score changes required apart from to the instrument number (p-field 1).
 
 ```csound
+
 ; File 'beat.orc'
 ;
 ; This is an example sonification instrument expressing the
