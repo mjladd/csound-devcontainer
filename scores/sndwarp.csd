@@ -11,7 +11,7 @@
 ; Instrument #1 - play an audio file.
 instr 1
   ; Use the audio file defined in Table #1.
- a1      diskin2     "glass.aiff", 1, 0, 1
+ a1      diskin2     "../samples/glass.aif", 1, 0, 1
 
   out a1
 endin
